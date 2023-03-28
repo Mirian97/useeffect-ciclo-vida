@@ -1,0 +1,32 @@
+.modal{
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    min-width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.modal-card{
+    background-color: white;
+    min-width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    margin: 25px 0 50px;
+}
+
+button{
+    margin: 50px 0 25px;
+    padding: 2px 12px;
+    cursor: pointer;
+}
